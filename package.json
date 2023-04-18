@@ -1,0 +1,18 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serverless offline --stage local",
+    "deploy:play": "npx serverless deploy --stage play"
+  },
+  "author": "ddgcarbayo",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "serverless": "^3.29.0",
+    "serverless-aws-2nd-factor": "latest",
+    "serverless-offline": "^12.0.4"
+  }
+}
